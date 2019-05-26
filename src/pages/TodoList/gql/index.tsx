@@ -11,7 +11,7 @@ export const GET_TODOS = gql`
 export const ADD_TODO = gql`
     mutation Add($title: String!){
       add(title:$title){
-        id, title
+        id, title, completed
       }
     }
 `;

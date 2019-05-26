@@ -1,3 +1,3 @@
-import {TodosComponent} from "./TodoList";
+import {TodoListComponent} from "./TodoList";
 
-export default TodosComponent;
+export default TodoListComponent;
