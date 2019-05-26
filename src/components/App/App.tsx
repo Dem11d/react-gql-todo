@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import Apollo from "../Apollo";
-import TodosComponent from "../../pages/TodoList/TodosComponent";
+import Todos from "../../pages/TodoList";
 
 const App: React.FC = () => {
     return (
         <Apollo>
-            <TodosComponent/>
+            <Todos/>
         </Apollo>
     );
 }

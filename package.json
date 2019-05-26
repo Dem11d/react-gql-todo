@@ -14,7 +14,8 @@
     "react-apollo": "^2.5.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",
-    "typescript": "3.4.5"
+    "typescript": "3.4.5",
+    "react-apollo-hooks": "^0.4.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,9 +37,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@graphql-codegen/cli": "^1.2.0"
   },
   "proxy": "https://todo-mongo-graphql-server.herokuapp.com/"
 }
